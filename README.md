@@ -26,12 +26,12 @@ Users should be able to:
 ### Screenshot
 
 ![mobile](./screenshots/mobile-view.png)
-![desktop](./screenshots/desktop-view.png)
+![desktop](./screenshots/desktop-view.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-with-css-grid-7UONFVep8Z)
+- Live Site URL: [Github](https://amrmabdelazeem.github.io/testimonials-grid-section-main/)
 
 ## My process
 
