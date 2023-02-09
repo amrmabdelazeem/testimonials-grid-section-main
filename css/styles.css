@@ -1,0 +1,116 @@
+:root{
+--Moderate-violet: hsl(263, 55%, 52%);
+--Verydarkgrayishblue: hsl(217, 19%, 35%);
+--Verydarkblackishblue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(0, 0%, 81%);
+--Lightgrayishblue: hsl(210, 46%, 95%);
+}
+
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+body{
+    background-color:black;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 20% 5%;
+    color: var(--White);
+}
+
+.card{
+    margin-bottom: 9%;
+    padding: 5% 10% 5% 9%;
+    border-radius: 10px;
+}
+
+.card:last-child{
+    margin-bottom: 0;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+
+}
+
+.card img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .3);
+}
+
+.header-contain{
+    padding-left: 4%;
+    color: var(--Lightgray);
+    
+}
+
+.first-card{
+    background-color: var(--Moderate-violet);
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:90% 0%;
+}
+.v-grad{
+    opacity: 50%;
+    font-size: 10px;
+}
+
+.card-title{
+    font-size: 12px;
+}
+
+.card-body{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -4%;
+
+
+}
+
+.card-quote{
+    opacity: 70%;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-right: 6%;
+
+}
+
+/* Second Card */
+
+.second-card{
+    background-color: var(--Verydarkgrayishblue);
+}
+
+
+/* Third Card */
+
+.third-card{
+    background-color: var(--White);
+    color: var(--Verydarkgrayishblue);
+}
+
+/* Fourth Card */
+
+.fourth-card{
+    background-color: var(--Verydarkblackishblue);
+}
+
+.fourth-card img{
+    border: 2px solid var(--Moderate-violet);
+}
+
+/* Fifth Card */
+
+.fifth-card{
+    background-color: var(--Lightgrayishblue);
+    color: var(--Verydarkgrayishblue);
+}
